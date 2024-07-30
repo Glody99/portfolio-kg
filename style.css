@@ -13,5 +13,14 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 50px;
+    font-weight: bold;
     
+}
+
+
+
+@media  screen and (max-width: 500px) {
+    .div-nav-div2-divheader-header{
+        display: none;
+    }
 }
