@@ -6,4 +6,37 @@
 }
 body{
     background-color: rgb(250, 226, 185);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.div-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.nav-header{
+    background-color: bisque;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0,1);
+    width: 100%;
+    
+
+}
+
+.ul1{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.li1{
+    height: 50px;
+    padding: 0 30px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.nav-header .li1:hover{
+    background-color: antiquewhite;
 }
