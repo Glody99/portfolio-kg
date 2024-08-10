@@ -42,8 +42,6 @@ body{
 }
 
 .ul1{
-    display: flex;
-    justify-content: space-between;
     position: fixed;
     z-index: 999;
     top: 0;
