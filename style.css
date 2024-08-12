@@ -32,6 +32,9 @@ header{
     
     
 }
+.bordur-separation{
+
+}
 .li2{
     
 }
@@ -42,4 +45,11 @@ a{
 }
 a:hover{
     color: brown;
+}
+
+@media screen and (max-width: 755px) {
+    .div-header{
+        display: flex;
+        justify-content: space-between;
+    }
 }
