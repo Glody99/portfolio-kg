@@ -8,15 +8,10 @@ body{
     background-color: rgb(250, 226, 185);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-header{
+.div-header{
     display: flex;
     justify-content: space-between;
-    padding: 50px;
-}
-.nav-header{
-}
-.div-nav-div2-divheader-header{
-    
+    margin: 30px;
 }
 
 .ul1{
@@ -27,15 +22,10 @@ header{
     
 }
 .li1{
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-.bordur-separation{
 
-}
-.li2{
-    
-}
 a{
     text-decoration: none;
     color: black;
@@ -45,14 +35,16 @@ a:hover{
     color: brown;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
     .div-header{
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        
         
     }
     .div2-header{
-        display: flex;
-        justify-content: space-between;
+        padding-top: 20px;
+        
     }
 }
