@@ -10,14 +10,10 @@ body{
 }
 header{
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    justify-content: space-between;
+    padding: 50px;
 }
 .nav-header{
-    padding-left: 80px;
-    padding-right: 80px;
 }
 .div-nav-div2-divheader-header{
     
@@ -26,11 +22,13 @@ header{
 .ul1{
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
     list-style-type: none;
     
     
+}
+.li1{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .bordur-separation{
 
@@ -47,8 +45,13 @@ a:hover{
     color: brown;
 }
 
-@media screen and (max-width: 755px) {
+@media screen and (min-width: 500px) {
     .div-header{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .div2-header{
         display: flex;
         justify-content: space-between;
     }
